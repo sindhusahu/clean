@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "CYZvQpArqVejQ3fB2XlXx"
+uri = "file://artifacts/cleancity/assets/images/icon.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "US-MLXYL44oW9riZUnue5"
+uri = "file://artifacts/cleancity/assets/images/onboarding1.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "yasNoTOR4pKe91Toxbdvi"
+uri = "file://artifacts/cleancity/assets/images/onboarding2.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "DMxe1jUaQESGPoqf8KbZB"
+uri = "file://artifacts/cleancity/assets/images/onboarding3.png"
+type = "image"
+title = "generated_image"

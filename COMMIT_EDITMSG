@@ -1,0 +1,10 @@
+Update project dependencies for improved stability and performance
+
+Update various Expo and React Native dependencies in pnpm-lock.yaml to newer versions, including @expo/cli, expo-router, and @react-native-async-storage/async-storage.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: b3304b20-5f54-4a83-ae71-c44de653adc2
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Event-Id: 27c618a3-f831-4ed7-b819-c6156a52e570
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/ad38f459-18ca-47eb-b052-8b8b109914ff/b3304b20-5f54-4a83-ae71-c44de653adc2/gJmTv8H
+Replit-Helium-Checkpoint-Created: true
