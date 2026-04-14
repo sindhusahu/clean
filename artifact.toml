@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "CleanCity"
+version = "1.0.0"
+id = "artifacts/cleancity"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 22081
+
+[services.development]
+run = "pnpm --filter @workspace/cleancity run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cleancity", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/cleancity", "run", "serve" ]
+
+[services.env]
+PORT = "22081"
+BASE_PATH = "/"
